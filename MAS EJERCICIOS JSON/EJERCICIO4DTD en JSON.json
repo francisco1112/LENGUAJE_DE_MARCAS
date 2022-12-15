@@ -1,0 +1,71 @@
+{
+    "facturas":{
+        
+            "datos_cliente":{
+                "ident":"a01",
+                "nombre":"Olga",
+                "apellido1":"Garcia",
+                "apellido2":"Blazquez",
+                "dni":"12345678K",
+                "tfno":213567873
+            },
+            "datos_factura":{
+                "resguardo":{
+                    "forma_de_pago":"efectivo",
+                    "importe_total":24
+                },
+                "alquileres":{
+                    "fecha":"1/2/22",
+                    "peliculas":{
+                            "identificador":"a148",
+                            "caratula":"foto_001",
+                            "valoracion":7.5,
+                            "titulo":"Titanic",
+                            "genero":"",
+                            "durecion":"",
+                            "actores":[
+                                {
+                                        
+                                    "nombre":"Manuel",
+                                    "apellido1":"Suarez",
+                                    "apellido2":"Blazquez"
+                                        
+                                },
+                                {
+                                    
+                                        
+                                    "nombre":"Manuel",
+                                    "apellido1":"Suarez",
+                                    "apellido2":""
+                                        
+                                    
+                                },
+                                {
+                                    
+                                        
+                                    "nombre":"Manuel",
+                                    "apellido1":"Suarez",
+                                    "apellido2":""
+                                        
+                                    
+                                }
+                            ]
+                        }
+                    }
+                },
+                "compras":{
+                    "dvds":{
+                            "extras":"",
+                            "titulo":"Scream",
+                            "fecha_salida_mercado":1996
+                    },
+                    "cintas":{
+                            "titulo":"Pretty Woman",
+                            "formato":"VHS"
+                        
+                    }
+                }  
+        }
+        
+    
+}

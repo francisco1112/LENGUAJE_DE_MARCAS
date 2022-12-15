@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+    <Titulo>XML explicado a los niños</Titulo><!-- No es el mismo nombre el de la etiqueta del principio con la etiqueta de cierre-->
+    <parrafo>El 
+        <abreviatura>XML</abreviatura>
+    define cómo crear lenguajes de marcas.</parrafo>
+    <parrafo>Las marcas se añaden a un documento de texto
+    para añadir información.</parrafo>
+    <http>www.example.org</http><!--No se pueden poner barras ni dos puntos dentro de las etiquetas-->
+</texto>

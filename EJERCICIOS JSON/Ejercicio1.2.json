@@ -1,0 +1,24 @@
+{
+    "numeros":{
+        "uno":{
+            "letrau":"u",
+            "letran":"n",
+            "letrao":"o"
+        },
+
+        "dos":{
+            "letrad":"d",
+            "letrao":"o",
+            "letras":"s"
+        },
+        
+        "seis":{
+            "letras":"s",
+            "letrae":"e",
+            "letrai":"i",
+            "letrasss":"s"
+        }
+       
+
+    }
+}

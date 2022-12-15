@@ -1,0 +1,47 @@
+{
+    "arboles":[
+        {
+            "nombre":{
+                    "nombre1":"Acer monspessulanum",
+                    "nombre_coomun":"Arce de Montpellier, Arce menor",
+                    "vegetacion":"Caducifolio",
+                    "altura":"De 6 a 10 metros",
+                    "forma_estructura":"Copa esferica",
+                    "color_primavera":"Haz verde brillante",
+                    "resistencia_helada":"Heladas fuertes"
+                }
+            
+        },
+        {
+            "nombre":{
+                    "nombre1":"Acer monspessulanum",
+                    "nombre_coomun":"Arce de Montpellier, Arce menor",
+                    "vegetacion":"Caducifolio",
+                    "altura":"De 6 a 10 metros"
+                    
+                }
+            
+        },
+        {
+            "nombre":{
+                    "nombre1":"Acer monspessulanum",
+                    "color_primavera":"Haz verde brillante",
+                    "resistencia_helada":"Heladas fuertes"
+                }
+            
+        },
+        {
+            "nombre":{
+                    "nombre1":"Acer monspessulanum",
+                    "nombre_coomun":"Arce de Montpellier, Arce menor",
+                    "vegetacion":"Caducifolio",
+                    "altura":"De 6 a 10 metros",
+                    "forma_estructura":"Copa esferica",
+                    "color_primavera":"Haz verde brillante",
+                    "color_otoño":"Ocre",
+                    "resistencia_helada":"Heladas fuertes"
+                }
+            
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emails>
+    <bandeja_entrada>
+        <remitente>
+            <nombre>Ándres</nombre>
+            <email>andres@gmail.com</email>
+        </remitente>
+        <destinatario>
+            <nombre>Juan</nombre>
+            <email>juan@gmail.com</email>
+        </destinatario>
+        <asunto>
+            <parrafos>LENGUAJE DE MARCAS</parrafos>
+        </asunto>
+        <cuerpo>
+            <parrafos>Ejercicio4</parrafos>
+        </cuerpo>
+    </bandeja_entrada>
+</emails>

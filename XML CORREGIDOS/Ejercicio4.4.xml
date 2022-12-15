@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<consultas>
+    <id_empleado id="1908">
+        <apellido>Burgos</apellido>
+        <nombre>Jeronimo</nombre>
+        <seccional>Palmita</seccional>
+        <facultad>Administracion</facultad>
+        <cargo>Administrativo</cargo>
+        <salario>$3.200.000</salario>
+        <fecha_com>05/04/1982</fecha_com>
+        <fecha_nac>28/09/1951</fecha_nac>
+    </id_empleado>
+    <id_empleado id="1674">
+        <apellido>Vilejas</apellido>
+        <nombre>Estefania</nombre>
+        <seccional>Palmita</seccional>
+        <facultad>Administracion</facultad>
+        <cargo>Docente</cargo>
+        <salario>$3.200.000</salario>
+        <fecha_com>25/03/1992</fecha_com>
+        <fecha_nac>17/01/1964</fecha_nac>
+    </id_empleado>
+    <id_empleado id="1516">
+        <apellido>Fernandez</apellido>
+        <nombre>Guillermo</nombre>
+        <seccional>Palmita</seccional>
+        <facultad>Administracion</facultad>
+        <cargo>Docente</cargo>
+        <salario>$4.500.000</salario>
+        <fecha_com>06/03/1985</fecha_com>
+        <fecha_nac>26/06/1963</fecha_nac>
+    </id_empleado>
+    <id_empleado id="1330">
+        <apellido>Ramirez</apellido>
+        <nombre>Eliana</nombre>
+        <seccional>Palmita</seccional>
+        <facultad>Administracion</facultad>
+        <cargo>Docente</cargo>
+        <salario>$3.200.000</salario>
+        <fecha_com>14/02/1989</fecha_com>
+        <fecha_nac>17/05/1964</fecha_nac>
+    </id_empleado>
+    <id_empleado id="1657">
+        <apellido>Carmona</apellido>
+        <nombre>Jose</nombre>
+        <seccional>Palmita</seccional>
+        <facultad>Administracion</facultad>
+        <cargo>Docente</cargo>
+        <salario>$3.200.000</salario>
+        <fecha_com>06/12/1987</fecha_com>
+        <fecha_nac>10/10/1963</fecha_nac>
+    </id_empleado>
+    <id_empleado id="1573">
+        <apellido>De santos</apellido>
+        <nombre>Marcela</nombre>
+        <seccional>Palmita</seccional>
+        <facultad>Administracion</facultad>
+        <cargo>Aux.Administrativo</cargo>
+        <salario>$1.500.000</salario>
+        <fecha_com>07/07/1988</fecha_com>
+        <fecha_nac>31/05/1960</fecha_nac>
+    </id_empleado>
+    <id_empleado id="1658">
+        <apellido>Franco</apellido>
+        <nombre>Daniela</nombre>
+        <seccional>Palmita</seccional>
+        <facultad>Administracion</facultad>
+        <cargo>Docente</cargo>
+        <salario>$3.200.000</salario>
+        <fecha_com>06/06/1988</fecha_com>
+        <fecha_nac>14/10/1963</fecha_nac>
+    </id_empleado>
+    <id_empleado id="1078">
+        <apellido>Cortes</apellido>
+        <nombre>Rafael</nombre>
+        <seccional>Palmita</seccional>
+        <facultad>Diseño</facultad>
+        <cargo>Administrativo</cargo>
+        <salario>$4.200.000</salario>
+        <fecha_com>01/04/1986</fecha_com>
+        <fecha_nac>21/11/1962</fecha_nac>
+    </id_empleado>
+    <id_empleado id="1695">
+        <apellido>Bento</apellido>
+        <nombre>Camilo</nombre>
+        <seccional>Palmita</seccional>
+        <facultad>Diseño</facultad>
+        <cargo>Docente</cargo>
+        <salario>$3.200.000</salario>
+        <fecha_com>20/10/1984</fecha_com>
+        <fecha_nac>05/01/1960</fecha_nac>
+    </id_empleado>
+    <id_empleado id="1285">
+        <apellido>Arias</apellido>
+        <nombre>Francisco</nombre>
+        <seccional>Palmita</seccional>
+        <facultad>Diseño</facultad>
+        <cargo>Docente</cargo>
+        <salario>$3.200.000</salario>
+        <fecha_com>27/12/1984</fecha_com>
+        <fecha_nac>22/12/1962</fecha_nac>
+    </id_empleado>
+
+</consultas>

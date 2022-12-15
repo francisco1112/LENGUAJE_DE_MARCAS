@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros> <!-- Aquí habia un espacio en la etiqueta-->
+    <libro>
+        <nombre>El diario de una princesa muerta</nombre><!-- Aquí habia un espacio en la primera etiqueta, y en el cierre de la etiqueta hay un espacio y la barra de finalizar etiqueta estaba mal puesta-->
+    </libro>
+    <libro1><!--Esta etiqueta he tenido que ponerla diferente, ya que habia una etiqueta con el mismo nombre-->
+        <nombre>Lo que nunca te conté</nombre><!-- La etiqueta de cierre la barra de cerrar etiqueta estaba mal puesta-->
+    </libro1>
+</libros> <!--Aquí habia un espacio en el cierre de la etiqueta -->

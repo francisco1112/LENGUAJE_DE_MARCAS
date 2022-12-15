@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="videoclub">
+        <xs:simpleType>
+            <xs:element name="factura">
+                <xs:atribbute name="identificador"></xs:atribbute>
+            
+            </xs:element>
+        </xs:simpleType>
+    </xs:element>
+</xs:schema>
+
+<videoclub>
+    <factura>
+        <datos_cliente identificador="a01">
+            <nombre>Francisco</nombre>
+            <apellido>Camero</apellido>
+            <apellido>Barroso</apellido>
+            <DNI>123456789A</DNI>
+            <telefono>987654321</telefono>
+        </datos_cliente>
+        <datos_factura>
+            <resguardo>
+                <forma_pago>efectivo</forma_pago>
+                <importe_total>24</importe_total>
+            </resguardo>
+            <alquiler>
+                <fecha_devolucion>1/2/22</fecha_devolucion>
+                <peliculas>
+                    <pelicula idPelicula="a148" valoracion="Buena">
+                        <titulo>Titanic</titulo>
+                        <genero>romántica</genero>
+                        <duracion>80min</duracion>
+                        <actores>
+                            <actor>
+                                <nombre>Manuel</nombre>
+                                <apellido>Suarez</apellido>
+                                <apellido>López</apellido>
+                            </actor>
+                            <actor>
+                                <nombre>Will</nombre>
+                                 <apellido>Farrel</apellido>
+                                 <apellido></apellido>
+                            </actor>  
+                            <actor>
+                                <nombre>Vince</nombre>
+                                <apellido>Vaughn</apellido>
+                                 <apellido></apellido> 
+                            </actor>  
+                        </actores>
+                    </pelicula>
+                </peliculas>
+            </alquiler>
+            <compras>
+                <DVDs>
+                    <DVD>
+                        <extras/>
+                        <titulo>Scream</titulo>
+                        <fecha_salida>1996</fecha_salida>
+                    </DVD>
+                </DVDs>
+                <cintas_video>
+                    <cinta_video>
+                        <titulo>Pretty Woman</titulo>
+                        <formato>VHS</formato>
+                    </cinta_video>
+                </cintas_video>
+            </compras>
+        </datos_factura>
+    </factura>
+</videoclub>

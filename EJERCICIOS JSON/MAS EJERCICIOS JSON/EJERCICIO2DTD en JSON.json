@@ -1,0 +1,38 @@
+{
+    "receta":{
+        "nombre":"brownie",
+        "ingredientes":[
+            {
+                "ingrediente":[
+                {
+                    "ingrediente1":"chocolate",
+                    "cantidad":3,
+                    "unidad":"gr"
+                },
+                {
+                    "ingrediente1":"chocolate",
+                    "cantidad":3,
+                    "unidad":"gr"
+                },
+                {
+                    "ingrediente1":"chocolate",
+                    "cantidad":3,
+                    "unidad":"gr"
+                },
+                {
+                    "ingrediente1":"chocolate",
+                    "cantidad":3,
+                    "unidad":"gr"
+                },
+                {
+                    "ingrediente1":"chocolate",
+                    "cantidad":3
+                }
+            ]
+            }
+        ],
+        
+        "elaboration":"Se derrite el chocolate con la mantequilla y el azucar..."
+        
+    }
+}

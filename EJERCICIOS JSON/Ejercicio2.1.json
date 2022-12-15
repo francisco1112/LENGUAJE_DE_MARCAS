@@ -1,0 +1,16 @@
+{
+    "deportistas":[
+        {
+            "deportista":[
+                {
+                   "deporte":"Atletismo",
+                   "nombre":"Jesse Owens"
+                },
+                {
+                    "deporte":"Natación",
+                    "nombre":"Mark Spitz"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "emils":{
+        "bandeja_entrada":{
+            "remitente":{
+                "nombre":"Ándres",
+                "email":"andres@gamil.com"
+            },
+            "destinatario":{
+                "nombre":"Juan",
+                "email":"juan@gmail.com"
+            },
+            "asunto":{
+                "parrafos":"LENGUAJE DE MARCAS"
+            },
+            "cuerpo":{
+                "parrafos":"Ejercicio4"
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "geografia_mundial":{
+        "pais":{
+            "pais":"España",
+            "continente":"Europa",
+            "capital":{
+                "nombre":"Madrid"
+            }
+        }
+    }
+}

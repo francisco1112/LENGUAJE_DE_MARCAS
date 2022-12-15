@@ -1,0 +1,10 @@
+{
+    "mediosTransporte":{
+        "bicicleta":{
+            "velocidad":"v<100km/h"
+        },
+        "patinete":{
+            "velocidad_maxima":"50 km/h"
+        }
+    }
+}

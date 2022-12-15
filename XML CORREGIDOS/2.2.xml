@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>  <!-- No habia etiqueta raíz-->
+    <pelicula>
+        <titulo>Con faldas y a lo loco</titulo>
+        <director>Billy Wilder</director>
+    </pelicula>
+    <pelicula1>
+        <director>Leo McCarey</director>
+        <titulo>Sopa de ganso</titulo>
+    </pelicula1>
+    <autor>barto</autor><!-- Llevaba una barra en el principio de la etiqueta-->
+</peliculas>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emails>
+    <bandeja_entrada>
+        <remitente>Ándres</remitente>
+        <destinatario>Juan</destinatario>
+        <asunto>LENGUAJE DE MARCAS</asunto>
+        <cuerpo>Ejercicio4</cuerpo>
+    </bandeja_entrada>
+</emails>

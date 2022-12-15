@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videoclub [
+<!ELEMENT videoclub (factura*)>
+<!ELEMENT factura (datos_cliente, datos_factura)>
+<!ELEMENT datos_cliente (nombre, apellido, apellido, DNI, telefono+, caracteristica)>
+    <!ATTLIST datos_cliente identificador CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT DNI (CDATA)>
+<!ELEMENT telefono (CDATA)>
+<!ELEMENT caracteristica (#PCDATA)>
+<!ELEMENT datos_factura (resguardo+, (alquileres | compras | (alquileres, compras)))>
+<!ELEMENT resguardo (forma_pago, importe_total)>
+<!ELEMENT forma_pago (#PCDATA)>
+<!ELEMENT importe_total (CDATA)>
+<!ELEMENT alquiler (fecha_devolucion, peliculas)>
+<!ELEMENT fecha_devolucion (#PCDATA)>
+<!ELEMENT peliculas (pelicula+)>
+<!ELEMENT pelicula (titulo, genero, duracion, actores)>
+    <!ATTLIST pelicula idPelicula CDATA #REQUIRED>
+    <!ATTLIST pelicula valoracion CDATA #REQUIRED> 
+<!ELEMENT actores (actor, actor, actor)>
+<!ELEMENT actor (nombre, apellido, apellido)>
+<!ELEMENT compras (DVDs | cintas_video)>
+<!ELEMENT DVDs (DVD+)>
+<!ELEMENT DVD (titulo, fecha_salida, extras?)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT fecha_salida (CDATA)>
+<!ELEMENT extras (#PCDATA)>
+<!ELEMENT cintas_video (cinta_video+)>
+<!ELEMENT cinta_video (titulo, formato, rebobinado?)>
+<!ELEMENT formato (#PCDATA)>
+<!ELEMENT rebobinado EMPTY>
+    
+]>
+
+<videoclub>
+    <factura>
+        <datos_cliente identificador="a01">
+            <nombre>Francisco</nombre>
+            <apellido>Camero</apellido>
+            <apellido>Barroso</apellido>
+            <DNI>123456789A</DNI>
+            <telefono>987654321</telefono>
+        </datos_cliente>
+        <datos_factura>
+            <resguardo>
+                <forma_pago>efectivo</forma_pago>
+                <importe_total>24</importe_total>
+            </resguardo>
+            <alquiler>
+                <fecha_devolucion>1/2/22</fecha_devolucion>
+                <peliculas>
+                    <pelicula idPelicula="a148" valoracion="Buena">
+                        <titulo>Titanic</titulo>
+                        <genero>romántica</genero>
+                        <duracion>80min</duracion>
+                        <actores>
+                            <actor>
+                                <nombre>Manuel</nombre>
+                                <apellido>Suarez</apellido>
+                                <apellido>López</apellido>
+                            </actor>
+                            <actor>
+                                <nombre>Will</nombre>
+                                 <apellido>Farrel</apellido>
+                                 <apellido></apellido>
+                            </actor>  
+                            <actor>
+                                <nombre>Vince</nombre>
+                                <apellido>Vaughn</apellido>
+                                 <apellido></apellido> 
+                            </actor>  
+                        </actores>
+                    </pelicula>
+                </peliculas>
+            </alquiler>
+            <compras>
+                <DVDs>
+                    <DVD>
+                        <extras/>
+                        <titulo>Scream</titulo>
+                        <fecha_salida>1996</fecha_salida>
+                    </DVD>
+                </DVDs>
+                <cintas_video>
+                    <cinta_video>
+                        <titulo>Pretty Woman</titulo>
+                        <formato>VHS</formato>
+                    </cinta_video>
+                </cintas_video>
+            </compras>
+        </datos_factura>
+    </factura>
+</videoclub>

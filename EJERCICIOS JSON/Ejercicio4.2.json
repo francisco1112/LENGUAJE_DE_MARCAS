@@ -1,0 +1,10 @@
+{
+    "email":{
+        "bandeja_entrada":{
+            "remitente":"Oscar",
+            "destinatario":"Jaime",
+            "asunto":"LENGUAJE DE MARCAS",
+            "cuerpo":"Ejercicio4"
+        }
+    }
+}

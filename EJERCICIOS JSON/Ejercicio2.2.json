@@ -1,0 +1,17 @@
+{
+    "peliculas":[
+        {
+            "pelicula":[
+            {
+                "titulo":"Con faldas u a lo loco",
+                "director":"Billy Wilder"
+            },
+            {
+                "director":"Leo McCarey",
+                "titulo":"Sopa de ganso"
+            }
+        ],
+            "autor":"barto"
+        }
+    ]
+}
